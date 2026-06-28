@@ -1,1 +1,1 @@
-![Dashboard Grafana 1](esquema-electrico-arduino.png)
+![](esquema-electrico-arduino.png)
