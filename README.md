@@ -84,6 +84,7 @@ El código gestiona las señales de paso y dirección del driver del motor paso 
 
 ### Versión S7-1200 (TIA Portal)
 El programa está desarrollado íntegramente en Ladder (KOP) dentro del bloque de organización principal OB1. La lógica de arranque/paro suave se implementa mediante temporizadores y la gestión de velocidad y dirección se controla directamente sobre las salidas del driver. El paro de emergencia actúa con prioridad absoluta sobre el resto de la lógica.
+
 ---
 
 ## 📋 Requisitos y compatibilidad
