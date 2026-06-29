@@ -38,7 +38,7 @@ Práctica de automatización industrial que implementa el control completo de un
 El objetivo de la práctica es controlar un **motor paso a paso** mediante lógica programada, implementando las funciones típicas de un sistema de automatización industrial: arranque, paro, inversión de giro, control de velocidad y seguridad. El mismo conjunto de funcionalidades se desarrolla en paralelo en dos entornos:
 
 - **Arduino** — programación en C++ con control directo de señales digitales al driver del motor.
-- **S7-1200 en TIA Portal** — programación en lenguaje Ladder (KOP) con bloques de función FB y FC.
+- **S7-1200 en TIA Portal** — programación en lenguaje Ladder (KOP) con bloques.
 
 Ambas versiones fueron diseñadas y probadas con sus respectivos esquemas eléctricos.
 
