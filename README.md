@@ -28,8 +28,7 @@ Práctica de automatización industrial que implementa el control completo de un
 │   └── 📄 proyecto-tia-portal/       # Proyecto exportado de TIA Portal
 ├── 📁 esquema-arduino/               # Solución con Arduino
 │   ├── 📄 esquema-electrico-arduino.png  # Esquema de conexiones de Arduino
-│   └── 📄 motor_paso_a_paso.ino      # Código fuente Arduino
-└── 📄 .gitignore
+│   └── 📄 motor_paso_a_paso.ino      # Código fuente Arduino 
 ```
 
 ---
