@@ -65,8 +65,9 @@ Ambas versiones fueron diseñadas y probadas con sus respectivos esquemas eléct
 | **Microcontrolador** | Arduino (C++) |
 | **PLC** | Siemens S7-1200 |
 | **Entorno de programación PLC** | TIA Portal V16 |
-| **Lenguaje PLC** | Ladder (KOP) con bloques FB y FC |
-| **Accionamiento** | Motor paso a paso + driver |
+| **Entorno de programación Arduino** | Arduino IDE |
+| **Lenguaje PLC** | Ladder (KOP) con bloques |
+| **Accionamiento** | Pulsadores + Motor paso a paso + driver |
 
 ---
 
