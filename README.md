@@ -75,14 +75,6 @@ Ambas versiones fueron diseñadas y probadas con sus respectivos esquemas eléct
 
 Cada plataforma dispone de su propio esquema de conexiones detallando el cableado entre el controlador, el driver del motor y los elementos de mando (pulsadores, señales de emergencia).
 
-**Esquema S7-1200:**
-
-![Esquema S7-1200](esquema-s7-1200/esquema-electrico-s7.png)
-
-**Esquema Arduino:**
-
-![Esquema Arduino](esquema-arduino/esquema-electrico-arduino.png)
-
 ---
 
 ## 💻 Descripción del programa
@@ -91,12 +83,7 @@ Cada plataforma dispone de su propio esquema de conexiones detallando el cablead
 El código gestiona las señales de paso y dirección del driver del motor paso a paso. La velocidad se controla modificando el delay entre pulsos, y las funciones de arranque/paro suave se implementan variando progresivamente ese intervalo. El paro de emergencia interrumpe inmediatamente el ciclo de pulsos.
 
 ### Versión S7-1200 (TIA Portal)
-El programa está estructurado con bloques de función:
-- **FB (Function Block):** bloques con memoria propia que gestionan el estado del motor (velocidad actual, dirección, estado de marcha).
-- **FC (Function):** bloques sin memoria para operaciones de cálculo y lógica de control puntual.
-- La lógica de arranque/paro suave se implementa mediante temporizadores y contadores en Ladder.
-- El paro de emergencia actúa sobre la salida del driver con prioridad absoluta sobre el resto de la lógica.
-
+El programa está desarrollado íntegramente en Ladder (KOP) dentro del bloque de organización principal OB1. La lógica de arranque/paro suave se implementa mediante temporizadores y la gestión de velocidad y dirección se controla directamente sobre las salidas del driver. El paro de emergencia actúa con prioridad absoluta sobre el resto de la lógica.
 ---
 
 ## 📋 Requisitos y compatibilidad
